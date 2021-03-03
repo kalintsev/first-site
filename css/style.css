@@ -1,0 +1,219 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  margin     : 0;
+  font-family: "Arial MT";
+  font-weight: 400;
+}
+
+.container {
+  width        : 1280px;
+  margin       : 0 auto;
+  /* border    : 3px solid black; */
+  box-sizing   : border-box;
+}
+
+.page-header {
+  width                 : 100%;
+  /* border             : 1px solid red; */
+  padding               : 50px;
+  padding-bottom        : 30px;
+  color                 : #fff;
+  background-color      : #445161;
+  box-sizing            : border-box;
+
+}
+
+.page-header:after {
+  content         : "";
+  display         : block;
+  width           : 100%;
+  clear           : both;
+  /*   height     : 10px;
+  background-color: #fff; */
+}
+
+.page-header-wrp {
+  float    : left;
+  /* border: 1px solid #fff; */
+}
+
+.page-header-title {
+  margin     : 0 0 50px 0;
+  font-size  : 60px;
+  line-height: 36px;
+}
+
+.page-header-list {
+  margin : 0;
+  padding: 0;
+}
+
+.page-header-list-item {
+  padding        : 0 0 0 35px;
+  font-size      : 20px;
+  list-style-type: none;
+  position       : relative;
+  margin-bottom  : 12px;
+}
+
+.page-header-list-item:before {
+  content               : "";
+  display               : block;
+  width                 : 25px;
+  height                : 25px;
+  /* border             : 1px solid #fff; */
+  position              : absolute;
+  top                   : 2px;
+  left                  : 0;
+  background-image      : url("../img/check_icon.png");
+  background-size       : contain;
+  background-position   : center;
+  background-repeat     : no-repeat;
+}
+
+.page-header-pic {
+  display         : block;
+  background-color: #fff;
+  float           : right;
+}
+
+.about-prod {
+  display        : flex;
+  justify-content: space-between;
+  padding        : 50px
+}
+
+.container-about-prod {
+  width: 51%;
+}
+
+.header-about-prod {
+  color        : #445161;
+  font-size    : 30px;
+  line-height  : 36px;
+  margin       : 0;
+  margin-bottom: 30px;
+}
+
+.about-prod-text {
+  color        : #333333;
+  font-size    : 16px;
+  line-height  : 24px;
+  padding      : 0;
+  margin       : 0;
+  margin-bottom: 20px;
+}
+
+.about-prod-video {
+  width           : 49%;
+  width           : 430px;
+  height          : 245px;
+  background-color: #445161;
+
+}
+
+.dignity-pluses-prod {
+  background-color: #f5f5f5;
+  padding         : 50px;
+  padding-bottom  : 23px;
+}
+
+.header-dignity-pluses-prod {
+  color        : #445161;
+  font-size    : 30px;
+  line-height  : 36px;
+  text-align   : center;
+  margin       : 0;
+  margin-bottom: 29px;
+}
+
+.list-dignity-pluses-prod {
+  column-count: 2;
+  list-style  : none;
+  padding     : 0;
+  margin      : 0;
+}
+
+.list-dignity-pluses-prod-item {
+  position   : relative;
+  padding    : 0px 0px 27px 40px;
+  color      : #333333;
+  font-size  : 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.list-dignity-pluses-prod-item:before {
+  content               : "";
+  display               : block;
+  width                 : 32px;
+  height                : 32px;
+  /* border             : 1px solid #fff; */
+  position              : absolute;
+  top                   : 2px;
+  left                  : 0;
+  background-image      : url("../img/plus_icon.png");
+  background-size       : contain;
+  background-position   : center;
+  background-repeat     : no-repeat;
+}
+
+.screenshots {
+  padding       : 50px;
+  padding-bottom: 20px;
+}
+
+.screenshots_h2 {
+  color        : #445161;
+  font-size    : 30px;
+  line-height  : 36px;
+  text-align   : center;
+  margin       : 0;
+  margin-bottom: 35px;
+
+}
+
+.list-screenshots {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.list-screenshots-container {
+  width       : 50%;
+  margin-right: 16px;
+}
+
+.list-screenshots-item {
+  display        : flex;
+  justify-content: space-between;
+  margin-bottom  : 30px;
+}
+
+.screenshots_img {
+  background-color: #445161;
+  margin-right    : 15px;
+  width           : 34%;
+}
+
+.screenshots_text {
+  width: 66%;
+}
+
+.screenshots_h3 {
+  margin       : 0;
+  margin-bottom: 15px;
+  color        : #445161;
+  font-size    : 24px;
+  line-height  : 30px;
+}
+
+.screenshots_p {
+  margin     : 0;
+  color      : #333333;
+  font-size  : 16px;
+  line-height: 24px;
+}
