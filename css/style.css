@@ -214,3 +214,40 @@ body {
   font-size  : 16px;
   line-height: 24px;
 }
+
+.reviews {
+  background-color: #f5f5f5;
+  display         : flex;
+  flex-wrap       : wrap;
+  justify-content : space-between;
+  margin          : 0;
+  padding         : 50px;
+}
+
+.reviews-head {
+  color      : #445161;
+  font-size  : 30px;
+  font-weight: 400;
+  width      : 100%;
+  text-align : center;
+  margin     : 0 0 35px;
+}
+
+.reviews-item {
+  width           : 45%;
+  background-color: #ebebeb;
+  box-sizing      : border-box;
+  padding         : 16px;
+}
+
+.reviews-item:nth-child(2) .reviews-item:nth-child(3) {
+  margin: 20px;
+}
+
+.reviews-img {}
+
+.reviews-text {}
+
+.reviews-text_p {}
+
+.reviews-text_a {}
