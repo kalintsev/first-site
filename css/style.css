@@ -430,11 +430,14 @@ body {
 }
 
 .footer_contacts_item {
-  width   : 100%;
-  display : block;
-  color   : #ffffff;
-  margin  : 5px 25px 25px;
-  position: relative;
+  width      : 100%;
+  display    : block;
+  color      : #ffffff;
+  /* margin  : 5px 25px 25px; */
+  margin     : 0 0 25px 0;
+  padding    : 0 0 0 30px;
+  box-sizing : border-box;
+  position   : relative;
 }
 
 .footer_contacts_item::before {
@@ -448,7 +451,7 @@ body {
   background-size    : cover;
   position           : absolute;
   top                : -5px;
-  left               : -28px;
+  left               : 0;
 }
 
 .footer_contacts_item:nth-child(1)::before {
@@ -467,12 +470,15 @@ body {
   background-image: url('../img/phone_icon.png');
 }
 
-
+.footer_contacts_item:nth-child(4) {
+  margin: 0;
+}
 
 .footer_contacts_icons {
   display        : flex;
   justify-content: space-between;
   box-sizing     : border-box;
+  margin         : 30px 0 0 0;
 }
 
 .footer_contacts_icon {
